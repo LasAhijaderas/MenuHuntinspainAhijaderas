@@ -503,11 +503,11 @@
             </div>
             <div class="card" onclick="openModal('bikinitrufado.jpeg', 18,'appetizers')">
                 <img src="bikinitrufado.jpeg" alt="bikinitrufado">
-                <h3>Truffled Ham and Cheese Bikini</h3>
+                <h3>Truffled ham and cheese bikini</h3>
             </div>
             <div class="card" onclick="openModal('tostaanchoa.jpeg', 19,'appetizers')">
                 <img src="tostaanchoa.jpeg" alt="tostaanchoa">
-                <h3>Anchovy Toast with Confit Garlic Butter</h3>
+                <h3>Anchovy toast with confit garlic butter</h3>
             </div>
             <div class="card" onclick="openModal('croquetas.jpeg', 20,'appetizers')">
                 <img src="croquetas.jpeg" alt="croquetas">
@@ -516,6 +516,10 @@
             <div class="card" onclick="openModal('camembert.jpeg', 21,'appetizers')">
                 <img src="camembert.jpeg" alt="camembert">
                 <h3>Baked Camembert with mixed nuts</h3>
+            </div>
+            <div class="card" onclick="openModal('tostaqueso.jpeg', 22,'appetizers')">
+                <img src="tostaqueso.jpeg" alt="tostaqueso">
+                <h3>Mixed cheese toast</h3>
             </div>
           
         </div>
@@ -590,10 +594,31 @@
                 <img src="tartarsalmon.jpg" alt="Salmon tartare with pancakes">
                 <h3>Salmon tartare with pancakes</h3>
             </div>
-            <div class="card" onclick="openModal('espinacas.jpg', 15,'starters')">
-                <img src="espinacas.jpeg" alt="Salmon tartare with pancakes">
-                <h3>Salmon tartare with pancakes</h3>
+            <div class="card" onclick="openModal('espinacas.jpeg', 15,'starters')">
+                <img src="espinacas.jpeg" alt="Spinach salad">
+                <h3>Spinach salad</h3>
             </div>
+            <div class="card" onclick="openModal('risotto.jpg', 16,'starters')">
+                <img src="risotto.jpeg" alt="Risotto">
+                <h3>Parmesan risotto with scallops</h3>
+            </div>
+            <div class="card" onclick="openModal('carpaccio.jpg', 17,'starters')">
+                <img src="carpaccio.jpeg" alt="Carpaccio">
+                <h3>Beef carpaccio with rocket and parmesan</h3>
+            </div>
+            <div class="card" onclick="openModal('ravioliscordero.jpeg', 18,'starters')">
+                <img src="ravioliscordero.jpg" alt="Ravioli de cordero">
+                <h3>Crispy lamb ravioli with mashed potatoes</h3>
+            </div>
+            <div class="card" onclick="openModal('pimientopiquillo.jpg', 19,'starters')">
+                <img src="pimientopiquillo.jpeg" alt="Piquillo peppers">
+                <h3>Piquillo peppers with scallops</h3>
+            </div>
+            <div class="card" onclick="openModal('canelonescarabinero.jpeg', 20,'starters')">
+                <img src="canelonescarabinero.jpeg" alt="Canelones de carabinero">
+                <h3>Red prawn canelloni</h3>
+            </div>
+            
         </div>
     </section>
     <!-- MAIN COURSE -->
@@ -684,6 +709,19 @@
                 <img src="gamo.jpeg" alt="redondo">
                 <h3>Roast Venison</h3>
             </div>
+            <div class="card" onclick="openModal('fideuatinta.jpeg', 19 ,'main')">
+                <img src="fideuatinta.jpeg" alt="fideuatinta">
+                <h3>Skind ink Fideuà with seafood</h3>
+            </div>
+            <div class="card" onclick="openModal('paellasecreto.jpeg', 19 ,'main')">
+                <img src="paellasecreto.jpeg" alt="paellasecreto">
+                <h3>Iberian pork Paella</h3>
+            </div>
+            <div class="card" onclick="openModal('hojaldrebacon.jpeg', 19 ,'main')">
+                <img src="hojaldrebacon.jpeg" alt="hojaldrebacon">
+                <h3>Puff pastry with pork tenderloin, bacon and cheese, served with truffle sauce
+                </h3>
+            </div>
         </div>
     </section>
     <!-- DESSERT -->
@@ -730,9 +768,13 @@
                 <img src="islaflotante.jpeg" alt="islaflotante">
                 <h3>Floating Island – Crème Anglaise with Meringue</h3>
             </div>
-            <div class="card" onclick="openModal('islaflotantejpg', 11 ,'dessert')">
+            <div class="card" onclick="openModal('tartamanzana.jpg', 11 ,'dessert')">
                 <img src="tatin.jpeg" alt="tatin">
                 <h3>Classic Caramelized Apple Tarte Tatin</h3>
+            </div>
+            <div class="card" onclick="openModal('tartachocolate.jpg', 12 ,'dessert')">
+                <img src="tartachocolate.jpeg" alt="Chocolate tart">
+                <h3>Chocolate tart</h3>
             </div>
         </div>
     </section>
@@ -824,6 +866,7 @@
             'Tostas de anchoa con mantequilla de ajo confitado',
             'Croquetas de jamón',
             'Camembert con frutos secos',
+            'Tosta de queso'
         ],
         appetizersAllergens: [
             ['gluten', 'huevo','lacteos'],           // Muslitos de codorniz al estilo Villaroy
@@ -848,6 +891,7 @@
             ['gluten','huevo', 'pescado'],           //Tosta de anchoa con mantequilla de ajo confitada
             ['gluten','huevo','lacteos'],            //Croquetas de jamón
             ['lacteos','frutoscascara'],             //Camembert con frutos secos
+            ['gluten','lacteos'],                    //Tosta de queso
         ],
 
         starters: [
@@ -867,6 +911,12 @@
             'Ensalada de melón, jamón y foie',
             'Tartar de salmón con salsa tártara y pancakes',
             'Espinacas gratinadas con huevo',
+            'Risotto parmesano con vieiras',  
+            'Carpaccio de ternera con rúcula y parmesano',
+            'Ravioli crujiente de cordero con puré de patata',
+            'Pimientos de piquillo rellenos de vieiras',
+            'Canelones de carabinero',
+            
         ],
 
         startersAllergens: [
@@ -886,6 +936,11 @@
             [],                                        //Ensalada de melón y jamón
             ['pescado'],                               //Tartar de salmón 
             ['lacteos','huevo'],                       //Espinacas
+            ['gluten','lacteos','moluscos'],          //Risotto parmesano con vieiras
+            ['gluten','lacteos'],                     //Carpaccio de ternera con rúcula y parmesano
+            ['gluten','lacteos'],                     //Ravioli crujiente de cordero con puré de patata
+            ['pescado','moluscos'],                   //Pimientos de piquillo rellenos de vieiras
+            ['gluten','crustaceos'],                  //Canelones de carabinero
         ],
         main: [
             'Magret de pato con salsa de Oporto y chalotas',
@@ -909,7 +964,9 @@
             'Pudin de calabacín con salsa de queso azul',
             'Redondo de ternera',
             'Gamo asado',
-            
+            'Fideuà de tinta de calamar con marisco',
+            'Paella de cerdo ibérico',
+            'Hojaldre relleno de solomillo de cerdo, bacon y queso, acompañado de salsa de trufa'
         ],
         mainAllergens: [
             [],                                        // Magret de pato con salsa de Oporto y chalotas
@@ -933,6 +990,9 @@
             ['lacteos','huevo'],                       //Pudin de calabacín con salsa de queso azul
             [],                                        //Redondo de ternera
             [],                                        //Gamo asado
+            ['pescado','moluscos'],           //Fideuà de tinta de calamar con marisco
+            [],                                        //Paella de cerdo ibérico 
+            ['gluten','lacteos'],                     //Hojaldre relleno de solomillo de cerdo, bacon y queso, acompañado de salsa de trufa
             
         ],
         dessert: [
@@ -946,7 +1006,8 @@
             'Tarta de manzana con helado de vainilla',
             'Banoffee - Tarta de plátano',
             'Isla flotante - Crema inglesa con merengue',
-            'Tarta tatín'
+            'Tarta tatín',
+            'Tarta de chocolate',
         ],
         dessertAllergens: [
             ['huevo', 'lacteos', 'gluten'],                     // Tarta de limón con merengue
@@ -960,6 +1021,7 @@
             ['huevo', 'lacteos'],                               //Banoffee
             ['huevo','lacteos'],                                //Isla flotante - crema inglesa con merengue
             ['gluten','huevo','lacteos'],                       //Tarta tatín
+            ['gluten','huevo','lacteos'],                       //Tarta de chocolate
         ],
     },
     en: {
@@ -988,6 +1050,7 @@
             'Anchovy toast with confit garlic butter',
             'Mini iberian ham croquettes',
             'Baked camembert with mixed nuts',
+            'Cheese toast',
         ],
         appetizersAllergens: [
             ['gluten', 'egg'],                      //Quail drumsticks in "Villaroy Style"
@@ -1012,6 +1075,7 @@
             ['gluten', 'fish', 'dairy'],            //Anchovy Toast with Confit Garlic Butter
             ['gluten','dairy','egg'],               //Mini Iberian Ham Croquettes
             ['dairy','tree-nuts'],                  //Baked Camembert with Mixed Nuts
+            ['gluten','dairy'],                     //Cheese Toast
         ],
         starters: [
             'Tuna tartare with avocado',
@@ -1030,6 +1094,12 @@
             'Melon, ham and foie gras escalop',
             'Salmon tartare with tartar sauce and mini pancakes',
             'Gratinated Spinach with Egg',
+            'Parmesan risotto with scallops',
+            'Beef carpaccio with arugula and parmesan',
+            'Crispy lamb ravioli with potato purée',
+            'Piquillo peppers stuffed with scallops',
+            'Red prawn cannelloni',
+
         ],
          startersAllergens: [
             ['fish'],                                   //Tuna tartare with avocado                               
@@ -1047,7 +1117,12 @@
             [],                                         //Red cabbage cream soup
             [],                                         //Melon, ham and foie gras escalop
             [],                                         //Salmon tartare with tartar sauce and mini pancakes
-            ['dairy','egg'],        //Gratinated Spinach with Egg 
+            ['dairy','egg'],                            //Gratinated Spinach with Egg 
+            ['gluten','dairy','mollusks'],             //Parmesan risotto with scallops
+            ['gluten','dairy'],                        //Beef carpaccio with arugula and parmesan
+            ['gluten','dairy'],                        //Crispy lamb ravioli with potato purée
+            ['fish','mollusks'],                      //Piquillo peppers stuffed with scallops
+            ['gluten','crustaceans'],                  //Red prawn cannelloni
         ],
         main: [
             'Magret of duck with oporto and shallot sauce',
@@ -1071,7 +1146,9 @@
             'Zucchini pudding with blue cheese sauce',
             'Rolled veal roast',
             'Roast venison',
-            
+            'Skind ink Fideuà with seafood',
+            'Iberian pork paella',
+            'Puff pastry with pork tenderloin, bacon and cheese, served with truffle sauce'
         ],
         mainAllergens: [
             [],                     //Magret of duck with Oporto and shallot sauce
@@ -1094,7 +1171,10 @@
             ['fish'],               //Seafood Paella
             ['dairy','egg'],        //Zucchini pudding with blue cheese sauce    
             [],                     //Rolled Veal Roast 
-            [],                     //Roast Venison ñ 
+            [],                     //Roast Venison 
+            ['fish','mollusks'],   //Skind ink Fideuà with seafood
+            [],                            //Iberian pork Paella
+            ['gluten','dairy'],             //Puff pastry with pork tenderloin, bacon and cheese, served with truffle sauce
             
         ],
 
@@ -1110,6 +1190,7 @@
             'Banoffee - Banana tart',
             'Floating island – Crème anglaise with meringue',
             'Classic caramelized apple tarte tatin',
+            'Chocolate tart',
         ],
         dessertAllergens: [
             ['egg', 'dairy', 'gluten'],                     //Lemon meringue pie
@@ -1123,6 +1204,7 @@
             ['egg','dairy'],                                //Banoffee
             ['egg','dairy'],                                //Floating Island – Crème Anglaise with Meringue
             ['gluten','dairy','eggs'],                      //Classic Caramelized Apple Tarte Tatin
+            ['gluten','dairy','egg'],                       //Chocolate tart
         ],
     }
 };
