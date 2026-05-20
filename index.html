@@ -776,6 +776,10 @@
                 <img src="tartachocolate.jpeg" alt="Chocolate tart">
                 <h3>Chocolate tart</h3>
             </div>
+            <div class="card" onclick="openModal('moussechocolate.jpeg', 13 ,'dessert')">
+                <img src="moussechocolate.jpeg" alt="Chocolate mousse">
+                <h3>Chocolate mousse</h3>
+            </div>
         </div>
     </section>
     <!-- MODAL -->
@@ -1008,6 +1012,7 @@
             'Isla flotante - Crema inglesa con merengue',
             'Tarta tatín',
             'Tarta de chocolate',
+            'Mousse de chocolate',
         ],
         dessertAllergens: [
             ['huevo', 'lacteos', 'gluten'],                     // Tarta de limón con merengue
@@ -1022,7 +1027,8 @@
             ['huevo','lacteos'],                                //Isla flotante - crema inglesa con merengue
             ['gluten','huevo','lacteos'],                       //Tarta tatín
             ['gluten','huevo','lacteos'],                       //Tarta de chocolate
-        ],
+            ['huevo','lacteos'],                                //Mousse de chocolate
+],
     },
     en: {
         nav: ["APPETIZERS", "STARTER", "MAIN COURSE", "DESSERT"],
@@ -1173,8 +1179,8 @@
             [],                     //Rolled Veal Roast 
             [],                     //Roast Venison 
             ['fish','mollusks'],   //Skind ink Fideuà with seafood
-            [],                            //Iberian pork Paella
-            ['gluten','dairy'],             //Puff pastry with pork tenderloin, bacon and cheese, served with truffle sauce
+            [],                      //Iberian pork Paella
+            ['gluten','dairy'],       //Puff pastry with pork tenderloin, bacon and cheese, served with truffle sauce
             
         ],
 
@@ -1191,6 +1197,7 @@
             'Floating island – Crème anglaise with meringue',
             'Classic caramelized apple tarte tatin',
             'Chocolate tart',
+            'Chocolate mousse',
         ],
         dessertAllergens: [
             ['egg', 'dairy', 'gluten'],                     //Lemon meringue pie
@@ -1205,6 +1212,7 @@
             ['egg','dairy'],                                //Floating Island – Crème Anglaise with Meringue
             ['gluten','dairy','eggs'],                      //Classic Caramelized Apple Tarte Tatin
             ['gluten','dairy','egg'],                       //Chocolate tart
+            ['egg','dairy'],                                //Chocolate mousse
         ],
     }
 };
